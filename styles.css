@@ -232,4 +232,22 @@
     background: #00e4f5;
     background: -webkit-linear-gradient(to right, #dfa300, #b7e023, #a9afaa);
     background: linear-gradient(to right, #11911c, #cad437);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+ }
+
+ .highlight {
+    border-bottom: 4px solid purple(132,0, 255);
+ }
+
+ @media screen and (max-width: 760px) {
+    .mac__heading {
+        font-size: 60px;
+    }
+    .mac__description {
+       font-size: 40px;  
+    }
  }
