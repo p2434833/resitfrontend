@@ -198,7 +198,7 @@
     padding: 200px 0;
  }
 
- .mac_container {
+ .mac__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,3 +209,20 @@
     text-align: center;
     padding: 30px;
  }
+
+ .mac__heading {
+    font-size: 100px;
+    margin-bottom: 24px;
+    color: white;
+ }
+
+ .mac__heading span {
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #4557fc, #1db6fd, #71b43a);
+    background: linear-gradient(to right, #182836, #1dbefd, #3eb43a);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+ } 
