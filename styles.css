@@ -356,3 +356,25 @@
 .main__btn:hover:after {
     width: 100%;
 }
+
+.main__img--container {
+    text-align: center;
+}
+
+.main__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: wheat;
+    background-image: linear-gradient(to right, #aca372 0%, #c7cc9a 100%);
+}
+
+#card-2 {
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #4557fc, #1db6fd, #71b43a);
+    background: linear-gradient(to right, #182836, #1dbefd, #3eb43a);
+}
