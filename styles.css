@@ -187,6 +187,13 @@
 
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-        
     }
 }
+
+ /* new class (mac) section  */
+ 
+ .mac {
+    background: black;
+    background: linear-gradient(to right, grey, black);
+    padding: 200px 0;
+ }
