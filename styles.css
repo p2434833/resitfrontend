@@ -218,7 +218,7 @@
 
  .mac__heading span {
     background: #833ab4;
-    background: -webkit-linear-gradient(to right, #4557fc, #1db6fd, #71b43a);
+    background: -webkit-linear-gradient(to right, #4fe04a, #d4ee8e, #71b43a);
     background: linear-gradient(to right, #182836, #1dbefd, #3eb43a);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -226,3 +226,10 @@
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
  } 
+
+ .mac__description {
+    font-size: 60px;
+    background: #00e4f5;
+    background: -webkit-linear-gradient(to right, #dfa300, #b7e023, #a9afaa);
+    background: linear-gradient(to right, #11911c, #cad437);
+ }
